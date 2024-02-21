@@ -14,10 +14,13 @@ function setup(){
 
 function draw(){
   // this function runs again and again (60x per second)
-  background(200); //light gray background
+  background(100); //light gray background
   
-  // add your image drawing code here
-
+  // add your image drawing code here 
+  rect(100, 150, 210, 20); //horizontal to spider leg one
+  rect(100, 150, 15, 60); // spider leg one
+  ellipse(200, 150, 110, 90); //spider body base
+ 
 /* 
   Use the following if()...else() structure to incorporate mouse click control of your animation
 */
